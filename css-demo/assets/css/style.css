@@ -1,3 +1,25 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body{
     background-color:plum;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+main{
+}
+
+header.primary{
+  background-color:chartreuse;
+  color: #ffffff; 
+  text-align: center;
+  text-shadow: 1px 1px #000000;
 }
